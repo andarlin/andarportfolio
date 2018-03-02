@@ -55,11 +55,11 @@ body{
 /*Banner1 head*/
 
 .banner img{
-    width: 101%;
+    width: 100%;
     margin-top: 106px;
 }
 
-@media (max-width:489px) {
+@media (max-width:360px) {
     .banner img{
         width: 154%;
 
@@ -82,6 +82,7 @@ body{
 
         }
 }
+
 @media (max-width:1084px) {
     #caption{
         top:-550px;
@@ -134,7 +135,7 @@ body{
 .subcaption{
       font-size: 6.9vw;
     color: whitesmoke;
-    text-shadow: 2px 4px 10px black;
+    text-shadow: 2px 4px 10px lightslategrey;
     margin: 0;
     font-family: 'Rubik', sans-serif;
 }
@@ -142,16 +143,16 @@ body{
 .subcaption2{
       font-size: 6.9vw;
     color: whitesmoke;
-    text-shadow: 2px 4px 10px black;
+    text-shadow: 2px 4px 10px lightslategrey;
     margin:0;
     font-family: 'Rubik', sans-serif;
 }
 
 .subcaption3{
     font-size: 5vmin;
-    width: 103%;
+    width: 102%;
     color: whitesmoke;
-    text-shadow: 2px 4px 10px black;
+    text-shadow: 2px 4px 10px lightslategrey;
     margin:0;
     font-family: 'Rubik', sans-serif;
 }
@@ -159,7 +160,7 @@ body{
 .subcaption4{
     font-size: 5vmin;
     color: whitesmoke;
-    text-shadow: 2px 4px 10px black;
+    text-shadow: 2px 4px 10px lightslategrey;
     margin:0;
     font-family: 'Rubik', sans-serif;
 }
@@ -178,9 +179,8 @@ margin-top: 78px;
     font-size: 53px;
     color: whitesmoke;
     margin-bottom: 26px;
-    padding-left: 26px;
+    padding-left: 10px;
     font-family: 'Rubik', sans-serif;
-    text-shadow: 2px 4px 10px black;
 
 }
 
@@ -191,51 +191,32 @@ margin-top: 78px;
     font-size: 20px;
     width: 100%;
     font-family: 'Rubik', sans-serif;
-
-    margin-bottom: 14px;
-}
-#info:hover {
     box-shadow: 2px 2px 8px 0px whitesmoke;
+    margin-bottom: 14px;
+
 }
 #slide{
     display: none;
 }
-#info2 {
+#info2{
     background:#0E0E0E;
     color: whitesmoke;
     text-align: left;
     font-size: 20px;
     width: 100%;
     font-family: 'Rubik', sans-serif;
-
-}
-#info2:hover {
     box-shadow: 2px 2px 8px 0px whitesmoke;
 }
 #slide2{
     display: none;
 }
-#slide2 ul{
-    list-style: none;
-    margin-top: 15px;
-    padding-left: 0;
-}
-#slide2 li{
-    color:white;
-    font-family: 'Rubik', sans-serif;
-    font-size: 20px;
-}
-#slide2 p{
-    font-family: 'Rubik', sans-serif;
-}
-#slide p{
-    font-family: 'Rubik', sans-serif;
-}
+
+
 .sub-box-caption p{
     text-align: left;
     font-size: 20px;
     color: whitesmoke;
-
+    padding-top: 9px;
 
 }
 /*Porfolio banner3*/
@@ -244,8 +225,6 @@ margin-top: 78px;
     font-size: 53px;
     color: whitesmoke;
     margin-top: 117px;
-    margin-left: 19px;
-    text-shadow: 2px 4px 10px black;
 }
 
 .banner3 h2{
@@ -287,7 +266,6 @@ margin-top: 78px;
     color: whitesmoke;
     font-size: 20px;
     margin-top: 8px;
-    margin-bottom: 5px;
 }
 .btn-style:hover{
     color: #323940;
@@ -383,9 +361,8 @@ Shadow Box
     font-family: 'Rubik', sans-serif;
     font-size: 53px;
     color: whitesmoke;
-    margin-top: 24px;
+    margin-top: 117px;
     margin-left: 10px;
-    text-shadow: 2px 4px 10px black;
 
 }
 .banner4 h3{
@@ -393,37 +370,28 @@ Shadow Box
     font-size: 34px;
     color: whitesmoke;
     margin-left: 10px;
-    text-shadow: 2px 4px 10px black;
 
 }
 .banner4{
     position: absolute;
-    background-image: url("/assets/img/image26.jpg");
+    background-image: url("/assets/img/image12.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    margin-top: 110px;
-}
-
-
-@media (max-width:1099px) {
-    .banner4{
-        background-image:none;
-    }
+    margin-top: 35px;
+    filter: grayscale(50%);
 
 }
+
+
 
 .web-card{
     border: 1px solid whitesmoke;
     padding: 1px 4px 0px 4px;
     border-radius: 12px;
     background: whitesmoke;
-
-    margin-bottom:20px;
-}
-.web-card:hover {
     box-shadow: 2px 3px 11px 1px #919191;
+    margin-bottom:20px;
 }
 
 .web-card p{
@@ -459,7 +427,7 @@ Shadow Box
 }
 #bar{
   position: relative;
-  background: linear-gradient(to right, #22395c, #b0bac8);
+  background:#121b26;
   border-radius: 8px;
   width:140px;
   height:50px;
@@ -488,7 +456,7 @@ Shadow Box
 
 #bar2{
   position: relative;
-  background: linear-gradient(to right, #22395c, #b0bac8);
+  background:#121b26;
   border-radius: 8px;
   width:185px;
   height:50px;
@@ -521,7 +489,7 @@ Shadow Box
 
 #bar3{
   position: relative;
-  background: linear-gradient(to right, #22395c, #b0bac8);
+  background:#121b26;
   border-radius: 8px;
   width:140px;
   height:50px;
@@ -553,7 +521,7 @@ Shadow Box
 
 #bar4{
   position: relative;
-  background: linear-gradient(to right, #22395c, #b0bac8);
+  background:#121b26;
   border-radius: 8px;
   width:140px;
   height:50px;
@@ -583,7 +551,7 @@ Shadow Box
 
  #bar5{
    position: relative;
-   background: linear-gradient(to right, #22395c, #b0bac8);
+   background:#121b26;
    border-radius: 8px;
    width:140px;
    height:50px;
@@ -613,7 +581,7 @@ Shadow Box
 
   #bar6{
     position: relative;
-    background: linear-gradient(to right, #22395c, #b0bac8);
+    background:#121b26;
     border-radius: 8px;
     width:140px;
     height:50px;
@@ -863,26 +831,15 @@ Shadow Box
     position: relative;
     top:946px;
     margin: auto;
-
+    margin-left: 10px;
 }
 .banner5 h2{
     font-family: 'Rubik', sans-serif;
     font-size: 53px;
     color: whitesmoke;
-    text-shadow: 2px 4px 10px black;
 }
 label{
     color:whitesmoke;
-
-}
-.banner-5{
-    margin-top: 133px;
-}
-
-@media (max-width:1891px) {
-    .banner-5{
-        margin-top: 139px;
-    }
 
 }
 
@@ -890,19 +847,18 @@ label{
 .caption3{
     position: relative;
     top:982px;
-    width: 101%;
     margin: auto;
     height:105px;
     box-shadow: 4px -6px 12px lightslategrey;
     background: #272727;
 }
-
-@media (max-width:489px) {
+@media (max-width:360px) {
     .caption3{
         width: 154%;
 
         }
 }
+
 .contact li{
     display: inline-block;
     color:whitesmoke;
